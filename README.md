@@ -11,6 +11,38 @@
 </p>
 
 <h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴛᴇʀᴍᴜx/ ᴀɴᴅʀᴏɪᴅ 」─
+</h3>
+
+- Get your [Necessary Variables](https://github.com/CasperCloudku/WhatsBot/settings.js)
+- Upgrade and Update by :
+`pkg update && pkg upgrade -y`
+- Install Ffmpeg by :
+`pkg install ffmpeg -y`
+- Install Imagemagick by :
+`pkg install imagemagick -y`
+- Install Node js by :
+`pkg install nodejs -y && pkg install npm -y`
+- Install pm2 by :
+`npm install pm2 -g && pm2 update`
+- Install Nano by :
+`pkg install nano -y`
+- Clone the repository by :
+`git clone https://github.com/CasperCloudku/WhatsBot && cd WhatsBot`
+- Install node_module by :
+`npm i`
+- Fill your variables in the config by :
+`nano settings.js`<br>
+Press `Ctrl+C` when you're done with editing config and `y + ENTER` to save the config<br>
+- Login to your WhatsApp number by :
+`npm start`<br>
+When you're done login `Ctrl+Z` for stop script<br>
+- Finally run the bot by :
+`pm2 start index.js`
+- For monitoring pm2 session :
+`pm2 monit` and `ESC` for exit session<br>
+
+<h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
@@ -26,7 +58,7 @@
 - Install pm2 by :
 `npm install pm2 -g && sudo apt update && apt install sudo curl && curl -sL https://raw.githubusercontent.com/Unitech/pm2/master/packager/setup.deb.sh | sudo -E bash - && npm install pm2 -g && pm2 update`
 - Clone the repository by :
-`git clone https://github.com/CasperCloudku/WhatsBot && cd WhatsApp-Userbot`
+`git clone https://github.com/CasperCloudku/WhatsBot && cd WhatsBot`
 - Install node_module by :
 `npm i`
 - Fill your variables in the config by :
