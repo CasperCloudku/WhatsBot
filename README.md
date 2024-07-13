@@ -53,7 +53,7 @@ When you're done login `Ctrl+Z` for stop script<br>
 - Install Imagemagick by :
 `sudo apt-get install imagemagick -y`
 - Install Node js by :
-`sudo apt-get install nodejs -y && sudo apt install npm -y`
+`curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Install pm2 by :
 `npm install pm2 -g && sudo apt update && apt install sudo curl && curl -sL https://raw.githubusercontent.com/Unitech/pm2/master/packager/setup.deb.sh | sudo -E bash - && npm install pm2 -g && pm2 update`
 - Clone the repository by :
