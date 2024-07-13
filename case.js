@@ -720,8 +720,7 @@ senddocu(buffer)
                 break
             case 'hidetag':
                 if (!m.isGroup) return editmsg(mess.group)
-                if (!isAdmins && !isGroupOwner && !isCreator) return editmsg(mess.admin)
-                if (!isBotAdmins) return editmsg(mess.botAdmin)
+                if (!isCreator) return editmsg(mess.admin)
                 userbot.sendMessage(m.chat, {
                     text: q ? q : '',
                     mentions: participants.map(a => a.id)
